@@ -1,0 +1,8 @@
+{
+  "name": "memory photobook",
+  "description": "An intimate, shared memory space and heirloom photobook for couples and micro-circles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

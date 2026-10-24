@@ -1,0 +1,231 @@
+---
+name: Kinfolk & Us
+colors:
+  surface: '#fff8f6'
+  surface-dim: '#e3d8d3'
+  surface-bright: '#fff8f6'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#fdf1ec'
+  surface-container: '#f8ebe6'
+  surface-container-high: '#f2e6e1'
+  surface-container-highest: '#ece0db'
+  on-surface: '#201a18'
+  on-surface-variant: '#55433d'
+  inverse-surface: '#362f2c'
+  inverse-on-surface: '#fbeee9'
+  outline: '#88726c'
+  outline-variant: '#dbc1b9'
+  surface-tint: '#99462a'
+  primary: '#99462a'
+  on-primary: '#ffffff'
+  primary-container: '#d97757'
+  on-primary-container: '#541400'
+  inverse-primary: '#ffb59e'
+  secondary: '#4b6453'
+  on-secondary: '#ffffff'
+  secondary-container: '#cbe7d1'
+  on-secondary-container: '#506857'
+  tertiary: '#8c4f23'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#c98151'
+  on-tertiary-container: '#491f00'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbd0'
+  primary-fixed-dim: '#ffb59e'
+  on-primary-fixed: '#390b00'
+  on-primary-fixed-variant: '#7a2f15'
+  secondary-fixed: '#cee9d4'
+  secondary-fixed-dim: '#b2cdb9'
+  on-secondary-fixed: '#082013'
+  on-secondary-fixed-variant: '#344c3c'
+  tertiary-fixed: '#ffdbc8'
+  tertiary-fixed-dim: '#ffb689'
+  on-tertiary-fixed: '#311300'
+  on-tertiary-fixed-variant: '#6f380d'
+  background: '#fff8f6'
+  on-background: '#201a18'
+  surface-variant: '#ece0db'
+typography:
+  display-lg:
+    fontFamily: Playfair Display
+    fontSize: 48px
+    fontWeight: '600'
+    lineHeight: 56px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 34px
+    fontWeight: '600'
+    lineHeight: 42px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 34px
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 24px
+    fontWeight: '500'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 28px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.05em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-md: 1.5rem
+  gutter-lg: 2rem
+  margin: 1.25rem
+  margin-md: 2rem
+  margin-lg: 3.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system is tailored for an intimate, shared memory space that serves couples, families, and micro-circles. It treats photographs and shared voice recordings not as disposable feeds, but as physical keepsakes—an heirloom digital living room. 
+
+The aesthetic is grounded in modern Scandinavian warmth and refined editorial design. It moves away from algorithmic velocity and gamified engagement loops, emphasizing calm contemplation, safety, and heartfelt connection. Visual metaphors mimic textured linen journals, matte photobook layouts, and sun-warmed print artifacts without descending into kitsch skeuomorphism. 
+
+Interactions must feel slow, intentional, and soft: cards settle gently onto the canvas, typography respects the cadence of printed literature, and reactions emphasize emotional resonance over vanity metrics.
+
+## Colors
+
+The palette draws directly from tactile materials: raw linen, sun-bleached terracotta tiles, pressed botanical sage leaves, and warm morning light.
+
+- **Canvas & Surfaces:**
+  - Base canvas: `#FDFBF7` (warm cream linen). Avoid pure white (`#FFFFFF`) except within photobook cutouts, polaroid photo wrappers, or high-contrast interactive modals.
+  - Surface elevated: `#F7F2EB` (subtle oat tone) for secondary containers, audio player trays, and comment wells.
+  - Surface recessed: `#EFE9DF` for borders, dividers, and inactive states.
+
+- **Typography & Structure:**
+  - High-emphasis text: `#2A2421` (deep roasted espresso). Provides strong readability without the harsh contrast of pure black.
+  - Medium-emphasis text: `#6E625B` (warm taupe/umber) for metadata, timestamps, and secondary captions.
+  - Low-emphasis / Borders: `#D6CEBE` for hairline dividers and subtle bounds.
+
+- **Accents:**
+  - **Primary (`#D97757`):** Terracotta rose. Used for core interactive items, active daily streaks, reaction hearts, and high-priority callouts.
+  - **Secondary (`#819B88`):** Sage eucalyptus. Applied to voice notes, serene status indicators, and botanical memory grouping badges.
+  - **Tertiary (`#E59866`):** Warm honey amber. Used for anniversaries, milestones, golden hour photo indicators, and celebratory reaction pins.
+
+## Typography
+
+The type system blends the literary elegance of Playfair Display with the clean legibility of Plus Jakarta Sans. 
+
+- **Playfair Display:** Reserved exclusively for memory titles, date headers, journal chapter markers, and reflective prompts. It infuses each photo collection with the character of an archival art book.
+- **Plus Jakarta Sans:** Handles daily captions, timestamps, UI actions, form inputs, and audio timeline labels. Its friendly geometric curves preserve high readability on mobile screens while avoiding cold technical sterility.
+- **Editorial Date Stamp Stylings:** When presenting daily dates (e.g., "October 14th, 2024"), use uppercase `label-md` with tracking (+0.05em) in warm taupe (`#6E625B`), paired with a larger serif numeral in `headline-md` to emulate vintage stationery stamps.
+
+## Layout & Spacing
+
+The layout philosophy centers on expansive breathing room and asymmetrical photobook storytelling. Avoid uniform, cramped social grids.
+
+- **Rhythm & Grid:**
+  - **Mobile:** 4-column layout with 20px outer margin and 16px gutter. Feeds arrange memories in vertical journal streams: full-bleed polaroids alternating with offset two-up pairings.
+  - **Tablet:** 8-column layout with 32px outer margin and 24px gutter. Cards mimic open photo spreads.
+  - **Desktop / Web Album:** 12-column fixed container with a max width of 1180px, centered on the warm cream canvas, framed by 56px margins.
+- **Spacing Behavior:**
+  - Between disparate memory days: use `space-xl` (40px) to establish clear temporal breaks.
+  - Between elements of the same memory (photo, audio note, reaction bar): use `space-sm` to `space-md` to maintain conceptual unity.
+
+## Elevation & Depth
+
+Visual hierarchy does not use harsh, drop-down grey shadows. Depth is achieved through warm atmospheric ambient glows and physical layering reminiscent of paper and archival matte boards.
+
+- **Level 0 (Flat Canvas):** `#FDFBF7`. The raw linen canvas on which the memories rest.
+- **Level 1 (Photobook Matte Cards):** Pure matte background (`#FFFFFF` or `#FAF7F2`) framed with a subtle 1px border of `#EADFCF`. Paired with a warm diffused shadow: `0 8px 24px -4px rgba(42, 36, 33, 0.05), 0 2px 6px -1px rgba(42, 36, 33, 0.03)`.
+- **Level 2 (Floating Action & Audio Overlays):** Used for voice note recorders, reaction flyouts, and dual-avatar badges: `0 14px 36px -6px rgba(42, 36, 33, 0.08), 0 4px 12px -2px rgba(42, 36, 33, 0.04)`.
+- **Polaroid Effect:** A top-heavy white matte border (12px on sides and top, 36px on bottom). The bottom area hosts hand-styled date tags and play buttons for attached voice memos.
+
+## Shapes
+
+The design system employs generous, organic curvature to reinforce safety and emotional intimacy. Sharp corners are avoided.
+
+- **Cards & Media:** Memory containers use large rounded pill corners (`rounded-3xl` / 24px to 32px), creating pebble-like frames that soften high-contrast photography.
+- **Buttons, Badges & Chips:** Fully rounded pills (`border-radius: 9999px`). They fit naturally beneath thumbs and invite tactile touch.
+- **Dual Avatar Medallions:** Overlapping circles with 2px canvas borders (`#FDFBF7`) that visually bind partners or family members together into a unified pill pill-dock.
+
+## Components
+
+### Buttons
+- **Primary:** Filled terracotta (`#D97757`), text in light linen (`#FDFBF7`), pill-shaped, `label-lg` typography. Padding: `12px 28px`. Hover: subtly deeper terracotta (`#C66648`) with gentle scale up (1.015x).
+- **Secondary / Soft:** Cream oat fill (`#F2EBE0`), text in espresso (`#2A2421`), zero border.
+- **Ghost:** Transparent background with `#D6CEBE` border and espresso text.
+
+### Polaroid & Photobook Cards
+- **Polaroid Frame:** Pure chalk white container (`#FFFFFF`) with 12px padding top/sides and 44px bottom shelf. Holds the photo (clipped to `rounded-xl`), with an espresso handwritten-style date stamp and optional audio wave indicator on the bottom rim.
+- **Standard Memory Card:** Rounded pill surface (`rounded-2xl` to `rounded-3xl`), containing rich full-bleed photos, an overlaid dual-avatar cluster at the top-left, and a frosted terracotta heart chip on the bottom-right.
+
+### Dual Avatars
+- Overlapping circle pairing (each 36px-42px).
+- First avatar has a z-index of 2 and a 2.5px solid `#FDFBF7` outline ring.
+- Second avatar offsets by -12px horizontally to signify shared ownership of the moment.
+
+### Voice Clip & Audio Memo Bar
+- Pill-shaped container filled with sage tint (`rgba(129, 155, 136, 0.15)`).
+- Sage green circular play button (`#819B88`) with white icon.
+- Soundwave visualizer rendered with rounded vertical bars in `#819B88`.
+- Duration readout set in `label-sm` monospaced numerals.
+
+### Reactions & Sentiment Markers
+- Floating pill dock housing high-touch emotional glyphs: Heart (`#D97757`), Sparkle (`#E59866`), Hug/Embrace, and Voice Reply.
+- Counter text set in `label-sm` weighted Plus Jakarta Sans.
+
+### Input Fields & Prompts
+- Daily prompt card features a subtle linen background, featuring a headline prompt in `headline-sm` Playfair Display (e.g., *"What made you laugh together today?"*).
+- Text area uses no bounding box—simply a soft divider line in `#E59866` and placeholder text in warm taupe (`#6E625B`).
